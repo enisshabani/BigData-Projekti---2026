@@ -47,7 +47,7 @@ SELECT TOP 5
     (MAX(env.EnergyPerPerson) - MIN(env.EnergyPerPerson)) as EnergyGrowth,
     (MAX(env.CO2PerCapita) - MIN(env.CO2PerCapita)) as CO2Change
 FROM Fact_EnvironmentalImpact env
-JOIN DimCountry c ON env.CountryKey = c.CountryKey
+JOIN DimCountry c ON c.CountryKey = env.CountryKey
 GROUP BY c.CountryName
 HAVING (MAX(env.EnergyPerPerson) - MIN(env.EnergyPerPerson)) > 0 
    AND (MAX(env.CO2PerCapita) - MIN(env.CO2PerCapita)) < 0;
