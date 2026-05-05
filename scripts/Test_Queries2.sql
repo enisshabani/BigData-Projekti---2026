@@ -27,8 +27,21 @@ PRINT 'Krahasimi i burimeve të energjisë midis dy viteve:';
 EXEC sp_CompareEnergyMixAcrossYears @Year1 = 2010, @Year2 = 2018;
 
 
--- 3. Testimi i QUERY-ve ANALITIKE 
-PRINT '--- 3. Duke testuar QUERY-T ANALITIKE ---';
+-- 3. Shfaqja e të dhënave në tabelat dimensionale
+PRINT '--- 3. Të dhënat në DimTime ---';
+SELECT * FROM DimTime ORDER BY Year;
+
+PRINT '--- 4. Të dhënat në DimCountry ---';
+SELECT TOP 10 * FROM DimCountry ORDER BY CountryName;
+
+PRINT '--- 5. Të dhënat në Fact_EnvironmentalImpact ---';
+SELECT TOP 10 * FROM Fact_EnvironmentalImpact;
+
+PRINT '--- 6. Të dhënat në Fact_ElectricitySources ---';
+SELECT TOP 10 * FROM Fact_ElectricitySources;
+
+-- 7. Testimi i QUERY-ve ANALITIKE 
+PRINT '--- 7. Duke testuar QUERY-T ANALITIKE ---';
 
 PRINT 'Shtetet me përdorimin më të lartë të qymyrit (Top 10):';
 SELECT TOP 10 
@@ -53,4 +66,3 @@ HAVING (MAX(env.EnergyPerPerson) - MIN(env.EnergyPerPerson)) > 0
    AND (MAX(env.CO2PerCapita) - MIN(env.CO2PerCapita)) < 0;
 
 PRINT '--- TESTIMI MBAROI ME SUKSES ---';
-GO
