@@ -1,4 +1,4 @@
-USE EnergyDW;
+USE BigData_Group24;
 GO
 -- 1. HEQJA E CONSTRAINTS
 IF EXISTS (SELECT * FROM sys.foreign_keys WHERE name = 'FK_Env_Country')
