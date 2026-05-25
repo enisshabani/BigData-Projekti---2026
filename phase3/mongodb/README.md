@@ -4,7 +4,12 @@ This folder contains the Phase 3 implementation for migrating our dataset from a
 
 ## Connection to Phase 1
 In Phase 1, our data was scattered across a Star Schema inside SQL Server (`DimCountry`, `DimTime`, `Fact_EnvironmentalImpact`, `Fact_ElectricitySources`). 
-For Phase 3, we extract that data, denormalize it, and load it into MongoDB as embedded documents. This simplifies analytical reads because the required values are stored in one document and no joins are needed for these queries.
+For Phase 3, we extract that data, denormalize it, and load it into MongoDB. The main analytical collection stores one embedded document per country-year, so the values needed by the queries are available without joins.
+
+The import also loads the additional Phase 3 CSV exports into separate MongoDB collections for verification and traceability:
+- `country_energy_profiles`
+- `executive_summary`
+- `energy_mix_analysis`
 
 ## Setup Requirements
 1. **Node.js** must be installed on your machine.
@@ -19,14 +24,14 @@ npm install
 ## Running the Scripts
 
 ### 1. Import Data
-To read the CSV from `shared-data` and insert the documents into the `bigdata_phase3` MongoDB database, run:
+To read the CSV files from `phase3/shared_data` and insert the documents into the `bigdata_phase3` MongoDB database, run:
 ```bash
 node import_data.js
 ```
 **Expected Output:**
 - A connection success message.
-- "Parsed [number] rows from CSV".
-- Number of new documents created / updated.
+- Each CSV file being read.
+- Insert counts for `country_energy_profiles`, `executive_summary`, and `energy_mix_analysis`.
 - A printed JSON sample of a created document.
 
 ### 2. Run Analytical Queries
