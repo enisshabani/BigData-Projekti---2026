@@ -4,7 +4,7 @@ This folder contains the Phase 3 implementation for migrating our dataset from a
 
 ## Connection to Phase 1
 In Phase 1, our data was scattered across a Star Schema inside SQL Server (`DimCountry`, `DimTime`, `Fact_EnvironmentalImpact`, `Fact_ElectricitySources`). 
-For Phase 3, we extract that data, denormalize it, and load it into MongoDB as embedded documents. This drastically improves read performance for our analytical queries because all data for a specific country in a specific year is stored in exactly one document—meaning no computationally expensive `JOIN` operations are needed!
+For Phase 3, we extract that data, denormalize it, and load it into MongoDB as embedded documents. This simplifies analytical reads because the required values are stored in one document and no joins are needed for these queries.
 
 ## Setup Requirements
 1. **Node.js** must be installed on your machine.

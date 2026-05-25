@@ -10,7 +10,7 @@ const dbName = 'bigdata_phase3';
 const collectionName = 'country_energy_profiles';
 
 // Path to our CSV file generated from the DWH in Phase 1
-const csvFilePath = path.join(__dirname, '..', 'shared-data', 'country_yearly_profile.csv');
+const csvFilePath = path.join(__dirname, '..', 'shared_data', 'country_yearly_profile.csv');
 
 async function importData() {
     const client = new MongoClient(url);

@@ -30,7 +30,7 @@ db.country_energy_profiles.find(
 
 ### Syntax Difference & Interpretation
 - **Syntax Difference:** In SQL, we must use `JOIN` on multiple tables (`Fact_EnvironmentalImpact`, `DimCountry`, `DimTime`) to gather the dimensions before filtering with a `WHERE` clause and sorting with `ORDER BY`. In MongoDB, because the data is denormalized and embedded into a single document per country/year, we query a single collection. We use the `.find()` filter object for the condition, `.project()` (the second argument) to select specific columns, and `.sort()` to order the results.
-- **Interpretation:** Both approaches return the identical list of the top 10 emitting countries. The NoSQL approach, however, executes considerably faster because reading a single document eliminates relational locking and the computational overhead of computing SQL joins.
+- **Interpretation:** Both approaches return the identical list of the top 10 emitting countries. The NoSQL approach, however, simplifies analytical reads because the required values are stored in one document and no joins are needed for these queries.
 
 ---
 
