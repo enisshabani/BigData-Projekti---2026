@@ -1,4 +1,4 @@
-USE EnergyDW; 
+USE BigData_Group24; 
 GO
 
 -- 1. View për Dashboard-in Kryesor (Executive)
