@@ -40,7 +40,7 @@ db.country_energy_profiles.find(
 
 ### Equivalent SQL Query (Phase 1)
 ```sql
-SELECT TOP 10 c.CountryName, (f2.Solar_Pct + f2.Wind_Pct + f2.Hydro_Pct) AS RenewableShare
+SELECT TOP 10 c.CountryName, (f2.Solar + f2.Wind + f2.Hydro) AS RenewableShare
 FROM Fact_ElectricitySources f2
 JOIN DimCountry c ON f2.CountryKey = c.CountryKey
 JOIN DimTime t ON f2.TimeKey = t.TimeKey
@@ -60,4 +60,4 @@ db.country_energy_profiles.find(
 
 ### Syntax Difference & Interpretation
 - **Syntax Difference:** The SQL query requires joining three tables and calculating the `RenewableShare` on the fly mathematically during the query execution. In MongoDB, our pipeline during the data import step handles calculating the `renewable_share` and embeds it directly. The query acts purely as a filter (`.find`) and sort (`.sort`) pipeline. 
-- **Interpretation:** The MongoDB syntax is much cleaner. By storing calculated properties or embedding the metrics (like `renewable_share`), NoSQL provides a clear performance advantage when serving dashboards or client applications that require instant data retrieval without needing on-the-fly math and aggregations.
+- **Interpretation:** The MongoDB syntax is more direct for this read pattern. By storing calculated properties or embedding the metrics (like `renewable_share`), the query can return dashboard-ready values without needing on-the-fly math and aggregations.

@@ -41,4 +41,4 @@ The other Phase 3 CSV exports are also imported:
 - `energy_mix_analysis`: stores country, year, and electricity source percentages for coal, gas, hydro, solar, and wind.
 
 ## Why MongoDB Fits This Use Case
-MongoDB is highly suited for this analytical use case because analytical queries (like finding top polluters in a specific year) often read data all at once. By embedding everything into a single document per country-year, MongoDB can retrieve the entire profile in a single read operation, offering great read performance compared to joining four tables in a relational database.
+MongoDB is well suited for this analytical use case because analytical queries (like finding top polluters in a specific year) often read data for a country-year together. By embedding everything into a single document per country-year, MongoDB can retrieve the entire profile without joining four relational tables.
