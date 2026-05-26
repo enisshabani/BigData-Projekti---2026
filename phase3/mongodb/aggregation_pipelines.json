@@ -1,0 +1,51 @@
+{
+  "query_1_top_co2_emitters_2022": [
+    {
+      "$match": {
+        "year": 2022,
+        "co2_per_capita": {
+          "$gt": 0
+        }
+      }
+    },
+    {
+      "$sort": {
+        "co2_per_capita": -1
+      }
+    },
+    {
+      "$limit": 10
+    },
+    {
+      "$project": {
+        "_id": 0,
+        "country": 1,
+        "year": 1,
+        "co2_per_capita": 1
+      }
+    }
+  ],
+  "query_2_renewable_energy_leaders_2022": [
+    {
+      "$match": {
+        "year": 2022
+      }
+    },
+    {
+      "$sort": {
+        "renewable_share": -1
+      }
+    },
+    {
+      "$limit": 10
+    },
+    {
+      "$project": {
+        "_id": 0,
+        "country": 1,
+        "year": 1,
+        "renewable_share": 1
+      }
+    }
+  ]
+}
