@@ -1,0 +1,1135 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d5" for="node" attr.name="y" attr.type="float" />
+  <key id="d4" for="node" attr.name="x" attr.type="float" />
+  <key id="d3" for="node" attr.name="renewable_share" attr.type="double" />
+  <key id="d2" for="node" attr.name="energy_per_person" attr.type="double" />
+  <key id="d1" for="node" attr.name="co2_per_capita" attr.type="double" />
+  <key id="d0" for="node" attr.name="iso_code" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Algeria">
+      <data key="d0">DZA</data>
+      <data key="d1">4.238998</data>
+      <data key="d2">15252.127</data>
+      <data key="d3">0.839</data>
+      <data key="d4">-0.5263338500531309</data>
+      <data key="d5">0.22990895229356795</data>
+    </node>
+    <node id="Argentina">
+      <data key="d0">ARG</data>
+      <data key="d1">4.047052</data>
+      <data key="d2">21994.422</data>
+      <data key="d3">31.426</data>
+      <data key="d4">0.07760394193706158</data>
+      <data key="d5">-0.3672854853534531</data>
+    </node>
+    <node id="Australia">
+      <data key="d0">AUS</data>
+      <data key="d1">14.65893</data>
+      <data key="d2">63458.84</data>
+      <data key="d3">32.303</data>
+      <data key="d4">-0.15980398540245683</data>
+      <data key="d5">-0.8755116997050373</data>
+    </node>
+    <node id="Austria">
+      <data key="d0">AUT</data>
+      <data key="d1">6.779517</data>
+      <data key="d2">42685.379</data>
+      <data key="d3">76.287</data>
+      <data key="d4">-0.5845352796939061</data>
+      <data key="d5">0.8704125629547581</data>
+    </node>
+    <node id="Azerbaijan">
+      <data key="d0">AZE</data>
+      <data key="d1">3.999354</data>
+      <data key="d2">18747.918</data>
+      <data key="d3">6.343</data>
+      <data key="d4">-0.4490748045569392</data>
+      <data key="d5">0.19854127169572547</data>
+    </node>
+    <node id="Bangladesh">
+      <data key="d0">BGD</data>
+      <data key="d1">0.6030491</data>
+      <data key="d2">2912.048</data>
+      <data key="d3">1.948</data>
+      <data key="d4">-0.38982448943851544</data>
+      <data key="d5">0.6242869246052728</data>
+    </node>
+    <node id="Belarus">
+      <data key="d0">BLR</data>
+      <data key="d1">6.226867</data>
+      <data key="d2">31132.697</data>
+      <data key="d3">2.711</data>
+      <data key="d4">-0.45304532476016346</data>
+      <data key="d5">0.0240258210904012</data>
+    </node>
+    <node id="Belgium">
+      <data key="d0">BEL</data>
+      <data key="d1">7.6375527</data>
+      <data key="d2">58395.824</data>
+      <data key="d3">25.449</data>
+      <data key="d4">-0.3460505398114548</data>
+      <data key="d5">-0.6106909465273893</data>
+    </node>
+    <node id="Bolivia">
+      <data key="d0">BOL</data>
+      <data key="d1">1.9448458</data>
+      <data key="d2">nan</data>
+      <data key="d3">39.308</data>
+      <data key="d4">0.32540921727944433</data>
+      <data key="d5">-0.14989423459551637</data>
+    </node>
+    <node id="Bosnia and Herzegovina">
+      <data key="d0">BIH</data>
+      <data key="d1">6.4724236</data>
+      <data key="d2">nan</data>
+      <data key="d3">37.869</data>
+      <data key="d4">0.23959355718680198</data>
+      <data key="d5">-0.6605599681018349</data>
+    </node>
+    <node id="Brazil">
+      <data key="d0">BRA</data>
+      <data key="d1">2.2826612</data>
+      <data key="d2">17299.75</data>
+      <data key="d3">86.94</data>
+      <data key="d4">-0.3613164412165148</data>
+      <data key="d5">0.09147239419834839</data>
+    </node>
+    <node id="Bulgaria">
+      <data key="d0">BGR</data>
+      <data key="d1">6.8755846</data>
+      <data key="d2">34175.52</data>
+      <data key="d3">18.703</data>
+      <data key="d4">-0.35870944063990207</data>
+      <data key="d5">-0.40991567405963675</data>
+    </node>
+    <node id="Burundi">
+      <data key="d0">BDI</data>
+      <data key="d1">0.06587466</data>
+      <data key="d2">nan</data>
+      <data key="d3">69.444</data>
+      <data key="d4">-0.39866105795178186</data>
+      <data key="d5">0.8065435207636594</data>
+    </node>
+    <node id="Canada">
+      <data key="d0">CAN</data>
+      <data key="d1">14.107159</data>
+      <data key="d2">102160.289</data>
+      <data key="d3">69.744</data>
+      <data key="d4">-0.9132530988381562</data>
+      <data key="d5">0.13212687471993137</data>
+    </node>
+    <node id="Chile">
+      <data key="d0">CHL</data>
+      <data key="d1">4.385191</data>
+      <data key="d2">25342.707</data>
+      <data key="d3">52.956</data>
+      <data key="d4">0.6867986403942998</data>
+      <data key="d5">0.02650073305675895</data>
+    </node>
+    <node id="China">
+      <data key="d0">CHN</data>
+      <data key="d1">8.217776</data>
+      <data key="d2">31051.48</data>
+      <data key="d3">30.673</data>
+      <data key="d4">-0.05463293599319352</data>
+      <data key="d5">-0.772649735743606</data>
+    </node>
+    <node id="Colombia">
+      <data key="d0">COL</data>
+      <data key="d1">1.7286528</data>
+      <data key="d2">11746.604</data>
+      <data key="d3">75.497</data>
+      <data key="d4">-0.5221386226463364</data>
+      <data key="d5">0.7004518856844151</data>
+    </node>
+    <node id="Costa Rica">
+      <data key="d0">CRI</data>
+      <data key="d1">1.5762514</data>
+      <data key="d2">nan</data>
+      <data key="d3">98.021</data>
+      <data key="d4">0.7353488560994382</data>
+      <data key="d5">0.6477290531632551</data>
+    </node>
+    <node id="Croatia">
+      <data key="d0">HRV</data>
+      <data key="d1">4.500902</data>
+      <data key="d2">23468.168</data>
+      <data key="d3">63.314</data>
+      <data key="d4">0.15601576886493848</data>
+      <data key="d5">0.2959405817132306</data>
+    </node>
+    <node id="Cyprus">
+      <data key="d0">CYP</data>
+      <data key="d1">5.3108797</data>
+      <data key="d2">25359.791</data>
+      <data key="d3">16.92</data>
+      <data key="d4">-0.342128335278837</data>
+      <data key="d5">-0.26734580561100935</data>
+    </node>
+    <node id="Czechia">
+      <data key="d0">CZE</data>
+      <data key="d1">8.904502</data>
+      <data key="d2">44242.148</data>
+      <data key="d3">12.337</data>
+      <data key="d4">-0.09617929153201554</data>
+      <data key="d5">-0.3236988537129528</data>
+    </node>
+    <node id="Denmark">
+      <data key="d0">DNK</data>
+      <data key="d1">4.9288173</data>
+      <data key="d2">32197.939</data>
+      <data key="d3">83.963</data>
+      <data key="d4">-0.6590291749085048</data>
+      <data key="d5">0.5850209109131574</data>
+    </node>
+    <node id="Ecuador">
+      <data key="d0">ECU</data>
+      <data key="d1">2.36007</data>
+      <data key="d2">12150.252</data>
+      <data key="d3">75.725</data>
+      <data key="d4">-0.5944666450127892</data>
+      <data key="d5">0.6673011711709611</data>
+    </node>
+    <node id="Egypt">
+      <data key="d0">EGY</data>
+      <data key="d1">2.2189891</data>
+      <data key="d2">9960.062</data>
+      <data key="d3">11.221</data>
+      <data key="d4">-0.19288071710746219</data>
+      <data key="d5">0.2936133561444633</data>
+    </node>
+    <node id="El Salvador">
+      <data key="d0">SLV</data>
+      <data key="d1">1.2599217</data>
+      <data key="d2">nan</data>
+      <data key="d3">73.228</data>
+      <data key="d4">-0.4383339205042652</data>
+      <data key="d5">0.37723684589212925</data>
+    </node>
+    <node id="Estonia">
+      <data key="d0">EST</data>
+      <data key="d1">8.863261</data>
+      <data key="d2">46504.863</data>
+      <data key="d3">44.005</data>
+      <data key="d4">0.3864154971380922</data>
+      <data key="d5">-0.5273818739115066</data>
+    </node>
+    <node id="Finland">
+      <data key="d0">FIN</data>
+      <data key="d1">6.5245185</data>
+      <data key="d2">58966.16</data>
+      <data key="d3">54.898</data>
+      <data key="d4">0.6395590896485438</data>
+      <data key="d5">0.3412764516843031</data>
+    </node>
+    <node id="France">
+      <data key="d0">FRA</data>
+      <data key="d1">4.4555726</data>
+      <data key="d2">36051.793</data>
+      <data key="d3">24.542</data>
+      <data key="d4">-0.15271309331876315</data>
+      <data key="d5">-0.2527300608839068</data>
+    </node>
+    <node id="Georgia">
+      <data key="d0">GEO</data>
+      <data key="d1">3.1622012</data>
+      <data key="d2">nan</data>
+      <data key="d3">76.194</data>
+      <data key="d4">-0.6580203874914714</data>
+      <data key="d5">0.44762143613294647</data>
+    </node>
+    <node id="Germany">
+      <data key="d0">DEU</data>
+      <data key="d1">7.942359</data>
+      <data key="d2">40977.492</data>
+      <data key="d3">42.947</data>
+      <data key="d4">0.09379421612303793</data>
+      <data key="d5">-0.5166587513322226</data>
+    </node>
+    <node id="Greece">
+      <data key="d0">GRC</data>
+      <data key="d1">5.532692</data>
+      <data key="d2">30410.344</data>
+      <data key="d3">43.307</data>
+      <data key="d4">0.4507291448451143</data>
+      <data key="d5">-0.4273652429287739</data>
+    </node>
+    <node id="Hong Kong">
+      <data key="d0">HKG</data>
+      <data key="d1">4.120568</data>
+      <data key="d2">29152.305</data>
+      <data key="d3">0.393</data>
+      <data key="d4">-0.3214400332352567</data>
+      <data key="d5">0.23643677455424542</data>
+    </node>
+    <node id="Hungary">
+      <data key="d0">HUN</data>
+      <data key="d1">4.674298</data>
+      <data key="d2">26660.49</data>
+      <data key="d3">21.199</data>
+      <data key="d4">-0.21367578823260958</data>
+      <data key="d5">-0.2190426888462191</data>
+    </node>
+    <node id="Iceland">
+      <data key="d0">ISL</data>
+      <data key="d1">9.458432</data>
+      <data key="d2">165870.875</data>
+      <data key="d3">99.986</data>
+      <data key="d4">0.20060976663978375</data>
+      <data key="d5">0.8820577537482989</data>
+    </node>
+    <node id="India">
+      <data key="d0">IND</data>
+      <data key="d1">1.9861692</data>
+      <data key="d2">7143.406</data>
+      <data key="d3">20.476</data>
+      <data key="d4">-0.03405206376737267</data>
+      <data key="d5">0.08225429961913387</data>
+    </node>
+    <node id="Indonesia">
+      <data key="d0">IDN</data>
+      <data key="d1">2.7185707</data>
+      <data key="d2">9854.455</data>
+      <data key="d3">19.617</data>
+      <data key="d4">-0.06298406777106684</data>
+      <data key="d5">0.010711669620971042</data>
+    </node>
+    <node id="Iran">
+      <data key="d0">IRN</data>
+      <data key="d1">8.569505</data>
+      <data key="d2">38133.086</data>
+      <data key="d3">4.965</data>
+      <data key="d4">-0.6314374763380102</data>
+      <data key="d5">-0.2924332724419734</data>
+    </node>
+    <node id="Iraq">
+      <data key="d0">IRQ</data>
+      <data key="d1">4.9385333</data>
+      <data key="d2">14392.053</data>
+      <data key="d3">3.169</data>
+      <data key="d4">-0.34328673745955574</data>
+      <data key="d5">0.2902295210449018</data>
+    </node>
+    <node id="Ireland">
+      <data key="d0">IRL</data>
+      <data key="d1">7.177214</data>
+      <data key="d2">37761.402</data>
+      <data key="d3">38.619</data>
+      <data key="d4">0.20622092907994527</data>
+      <data key="d5">-0.7277837924890908</data>
+    </node>
+    <node id="Israel">
+      <data key="d0">ISR</data>
+      <data key="d1">6.8401985</data>
+      <data key="d2">33643.016</data>
+      <data key="d3">9.508</data>
+      <data key="d4">-0.465223055855341</data>
+      <data key="d5">-0.11269142017140803</data>
+    </node>
+    <node id="Italy">
+      <data key="d0">ITA</data>
+      <data key="d1">5.704794</data>
+      <data key="d2">28910.201</data>
+      <data key="d3">36.438</data>
+      <data key="d4">0.18640624602940165</data>
+      <data key="d5">-0.6178953078077174</data>
+    </node>
+    <node id="Japan">
+      <data key="d0">JPN</data>
+      <data key="d1">8.237319</data>
+      <data key="d2">39984.914</data>
+      <data key="d3">23.631</data>
+      <data key="d4">-0.3453274753171264</data>
+      <data key="d5">-0.6919026772071966</data>
+    </node>
+    <node id="Kazakhstan">
+      <data key="d0">KAZ</data>
+      <data key="d1">13.693581</data>
+      <data key="d2">44701.98</data>
+      <data key="d3">11.341</data>
+      <data key="d4">0.5149133877247863</data>
+      <data key="d5">-0.46057132111092375</data>
+    </node>
+    <node id="Kenya">
+      <data key="d0">KEN</data>
+      <data key="d1">0.37868083</data>
+      <data key="d2">nan</data>
+      <data key="d3">89.781</data>
+      <data key="d4">0.1588290240443323</data>
+      <data key="d5">0.3549684566739682</data>
+    </node>
+    <node id="Kuwait">
+      <data key="d0">KWT</data>
+      <data key="d1">25.242083</data>
+      <data key="d2">103882.75</data>
+      <data key="d3">0.258</data>
+      <data key="d4">0.5566222080195189</data>
+      <data key="d5">0.647573713893414</data>
+    </node>
+    <node id="Latvia">
+      <data key="d0">LVA</data>
+      <data key="d1">3.5129132</data>
+      <data key="d2">21435.611</data>
+      <data key="d3">72.134</data>
+      <data key="d4">-0.4600553973923479</data>
+      <data key="d5">0.5222126347045724</data>
+    </node>
+    <node id="Lithuania">
+      <data key="d0">LTU</data>
+      <data key="d1">4.5777125</data>
+      <data key="d2">23151.053</data>
+      <data key="d3">74.82</data>
+      <data key="d4">-0.45846273295694234</data>
+      <data key="d5">0.4912199885583222</data>
+    </node>
+    <node id="Luxembourg">
+      <data key="d0">LUX</data>
+      <data key="d1">11.134566</data>
+      <data key="d2">60334.328</data>
+      <data key="d3">85.841</data>
+      <data key="d4">1.0</data>
+      <data key="d5">0.0993151593157716</data>
+    </node>
+    <node id="Malaysia">
+      <data key="d0">MYS</data>
+      <data key="d1">8.124508</data>
+      <data key="d2">39586.996</data>
+      <data key="d3">19.04</data>
+      <data key="d4">-0.43251248771062123</data>
+      <data key="d5">-0.443475013681211</data>
+    </node>
+    <node id="Malta">
+      <data key="d0">MLT</data>
+      <data key="d1">3.3590784</data>
+      <data key="d2">nan</data>
+      <data key="d3">0.5</data>
+      <data key="d4">-0.5750262234555427</data>
+      <data key="d5">0.37965908998858766</data>
+    </node>
+    <node id="Mexico">
+      <data key="d0">MEX</data>
+      <data key="d1">3.5284045</data>
+      <data key="d2">19009.186</data>
+      <data key="d3">22.938</data>
+      <data key="d4">-0.05792131388472284</data>
+      <data key="d5">-0.13322873717991304</data>
+    </node>
+    <node id="Moldova">
+      <data key="d0">MDA</data>
+      <data key="d1">1.7018101</data>
+      <data key="d2">nan</data>
+      <data key="d3">6.877</data>
+      <data key="d4">-0.32891301665664785</data>
+      <data key="d5">0.38566671880355785</data>
+    </node>
+    <node id="Mongolia">
+      <data key="d0">MNG</data>
+      <data key="d1">11.944179</data>
+      <data key="d2">nan</data>
+      <data key="d3">8.803</data>
+      <data key="d4">0.8443107860900528</data>
+      <data key="d5">-0.4260895582329417</data>
+    </node>
+    <node id="Montenegro">
+      <data key="d0">MNE</data>
+      <data key="d1">4.0595264</data>
+      <data key="d2">nan</data>
+      <data key="d3">52.322</data>
+      <data key="d4">0.5944369755814554</data>
+      <data key="d5">0.06648689405039107</data>
+    </node>
+    <node id="Morocco">
+      <data key="d0">MAR</data>
+      <data key="d1">1.8693061</data>
+      <data key="d2">6855.11</data>
+      <data key="d3">17.382</data>
+      <data key="d4">-0.13814296293070863</data>
+      <data key="d5">0.0422059686015926</data>
+    </node>
+    <node id="Netherlands">
+      <data key="d0">NLD</data>
+      <data key="d1">7.1213217</data>
+      <data key="d2">56000.762</data>
+      <data key="d3">39.871</data>
+      <data key="d4">0.31691809430413553</data>
+      <data key="d5">-0.747329359552716</data>
+    </node>
+    <node id="New Zealand">
+      <data key="d0">NZL</data>
+      <data key="d1">6.229061</data>
+      <data key="d2">44939.27</data>
+      <data key="d3">85.556</data>
+      <data key="d4">-0.24055745649796825</data>
+      <data key="d5">0.738877709991106</data>
+    </node>
+    <node id="Nigeria">
+      <data key="d0">NGA</data>
+      <data key="d1">0.58902264</data>
+      <data key="d2">nan</data>
+      <data key="d3">27.508</data>
+      <data key="d4">0.075142216466174</data>
+      <data key="d5">0.28481721076477423</data>
+    </node>
+    <node id="North Macedonia">
+      <data key="d0">MKD</data>
+      <data key="d1">3.9952326</data>
+      <data key="d2">13874.975</data>
+      <data key="d3">27.182</data>
+      <data key="d4">-0.04211269562887497</data>
+      <data key="d5">-0.2899974996559312</data>
+    </node>
+    <node id="Norway">
+      <data key="d0">NOR</data>
+      <data key="d1">7.4829626</data>
+      <data key="d2">96926.234</data>
+      <data key="d3">98.972</data>
+      <data key="d4">0.5551401063224665</data>
+      <data key="d5">0.7291481057729197</data>
+    </node>
+    <node id="Oman">
+      <data key="d0">OMN</data>
+      <data key="d1">16.488375</data>
+      <data key="d2">90751.438</data>
+      <data key="d3">0.431</data>
+      <data key="d4">0.866630132336643</data>
+      <data key="d5">0.33274142549551433</data>
+    </node>
+    <node id="Pakistan">
+      <data key="d0">PAK</data>
+      <data key="d1">0.8697954</data>
+      <data key="d2">4242.753</data>
+      <data key="d3">28.685</data>
+      <data key="d4">0.16479894098242967</data>
+      <data key="d5">0.12859031361343073</data>
+    </node>
+    <node id="Peru">
+      <data key="d0">PER</data>
+      <data key="d1">1.9352938</data>
+      <data key="d2">9835.475</data>
+      <data key="d3">55.085</data>
+      <data key="d4">0.489323072726681</data>
+      <data key="d5">0.0404784256059059</data>
+    </node>
+    <node id="Philippines">
+      <data key="d0">PHL</data>
+      <data key="d1">1.3246514</data>
+      <data key="d2">5066.786</data>
+      <data key="d3">22.583</data>
+      <data key="d4">0.06449164111851122</data>
+      <data key="d5">0.009467314247179217</data>
+    </node>
+    <node id="Poland">
+      <data key="d0">POL</data>
+      <data key="d1">8.20336</data>
+      <data key="d2">30065.42</data>
+      <data key="d3">21.043</data>
+      <data key="d4">-0.27432471783034</data>
+      <data key="d5">-0.5863292057744695</data>
+    </node>
+    <node id="Portugal">
+      <data key="d0">PRT</data>
+      <data key="d1">3.9092069</data>
+      <data key="d2">25094.396</data>
+      <data key="d3">59.817</data>
+      <data key="d4">0.42919723229168094</data>
+      <data key="d5">0.2732846141209912</data>
+    </node>
+    <node id="Qatar">
+      <data key="d0">QAT</data>
+      <data key="d1">37.88961</data>
+      <data key="d2">194221.594</data>
+      <data key="d3">0.065</data>
+      <data key="d4">-0.8645459717549363</data>
+      <data key="d5">-0.3642302224792752</data>
+    </node>
+    <node id="Romania">
+      <data key="d0">ROU</data>
+      <data key="d1">3.8183794</data>
+      <data key="d2">18346.869</data>
+      <data key="d3">42.149</data>
+      <data key="d4">0.5205118691608654</data>
+      <data key="d5">-0.5548657852013962</data>
+    </node>
+    <node id="Russia">
+      <data key="d0">RUS</data>
+      <data key="d1">11.508876</data>
+      <data key="d2">55459.422</data>
+      <data key="d3">18.361</data>
+      <data key="d4">0.49705892888218606</data>
+      <data key="d5">-0.20124252761617092</data>
+    </node>
+    <node id="Saudi Arabia">
+      <data key="d0">SAU</data>
+      <data key="d1">20.729954</data>
+      <data key="d2">87707.289</data>
+      <data key="d3">0.208</data>
+      <data key="d4">0.5332626883760129</data>
+      <data key="d5">0.6065089942094375</data>
+    </node>
+    <node id="Serbia">
+      <data key="d0">SRB</data>
+      <data key="d1">6.547047</data>
+      <data key="d2">nan</data>
+      <data key="d3">29.491</data>
+      <data key="d4">-0.08972601787001032</data>
+      <data key="d5">-0.6072088211298997</data>
+    </node>
+    <node id="Singapore">
+      <data key="d0">SGP</data>
+      <data key="d1">8.6610365</data>
+      <data key="d2">147084.844</data>
+      <data key="d3">2.409</data>
+      <data key="d4">-0.4931067985779829</data>
+      <data key="d5">-0.335559597034245</data>
+    </node>
+    <node id="Slovakia">
+      <data key="d0">SVK</data>
+      <data key="d1">5.771668</data>
+      <data key="d2">33887.691</data>
+      <data key="d3">22.671</data>
+      <data key="d4">-0.21788903465128873</data>
+      <data key="d5">-0.4211704161110258</data>
+    </node>
+    <node id="Slovenia">
+      <data key="d0">SVN</data>
+      <data key="d1">6.017234</data>
+      <data key="d2">34391.094</data>
+      <data key="d3">29.616</data>
+      <data key="d4">-0.07841380937870641</data>
+      <data key="d5">-0.5455403028888807</data>
+    </node>
+    <node id="South Africa">
+      <data key="d0">ZAF</data>
+      <data key="d1">6.8738866</data>
+      <data key="d2">22350.898</data>
+      <data key="d3">9.092</data>
+      <data key="d4">-0.5160871769694337</data>
+      <data key="d5">-0.10958509168714894</data>
+    </node>
+    <node id="South Korea">
+      <data key="d0">KOR</data>
+      <data key="d1">11.719733</data>
+      <data key="d2">68126.188</data>
+      <data key="d3">9.212</data>
+      <data key="d4">0.6151321685435098</data>
+      <data key="d5">-0.4044856026066121</data>
+    </node>
+    <node id="Spain">
+      <data key="d0">ESP</data>
+      <data key="d1">4.8971643</data>
+      <data key="d2">33615.332</data>
+      <data key="d3">42.218</data>
+      <data key="d4">0.3559966804378936</data>
+      <data key="d5">-0.4724162968615761</data>
+    </node>
+    <node id="Sri Lanka">
+      <data key="d0">LKA</data>
+      <data key="d1">0.80477285</data>
+      <data key="d2">4347.636</data>
+      <data key="d3">51.574</data>
+      <data key="d4">0.8720609759236695</data>
+      <data key="d5">0.0967456210926855</data>
+    </node>
+    <node id="Sweden">
+      <data key="d0">SWE</data>
+      <data key="d1">3.4653375</data>
+      <data key="d2">59926.805</data>
+      <data key="d3">68.383</data>
+      <data key="d4">-0.1341042703137382</data>
+      <data key="d5">0.5163822345156693</data>
+    </node>
+    <node id="Switzerland">
+      <data key="d0">CHE</data>
+      <data key="d1">3.7477124</data>
+      <data key="d2">33350.754</data>
+      <data key="d3">59.406</data>
+      <data key="d4">0.4990785613795175</data>
+      <data key="d5">0.2572294765897186</data>
+    </node>
+    <node id="Taiwan">
+      <data key="d0">TWN</data>
+      <data key="d1">11.698872</data>
+      <data key="d2">55606.547</data>
+      <data key="d3">7.731</data>
+      <data key="d4">0.5390768872497242</data>
+      <data key="d5">-0.31404134083799057</data>
+    </node>
+    <node id="Thailand">
+      <data key="d0">THA</data>
+      <data key="d1">3.7997093</data>
+      <data key="d2">19616.777</data>
+      <data key="d3">15.256</data>
+      <data key="d4">-0.2527347314461881</data>
+      <data key="d5">0.008534632234963908</data>
+    </node>
+    <node id="Trinidad and Tobago">
+      <data key="d0">TTO</data>
+      <data key="d1">25.063381</data>
+      <data key="d2">107268.734</data>
+      <data key="d3">0.055</data>
+      <data key="d4">0.13341770893264554</data>
+      <data key="d5">0.8800849849411111</data>
+    </node>
+    <node id="Tunisia">
+      <data key="d0">TUN</data>
+      <data key="d1">2.5401497</data>
+      <data key="d2">nan</data>
+      <data key="d3">4.389</data>
+      <data key="d4">-0.38102398615564437</data>
+      <data key="d5">0.48050428801589185</data>
+    </node>
+    <node id="Turkey">
+      <data key="d0">TUR</data>
+      <data key="d1">5.095457</data>
+      <data key="d2">22824.15</data>
+      <data key="d3">41.973</data>
+      <data key="d4">0.26235541727474077</data>
+      <data key="d5">-0.446850048031828</data>
+    </node>
+    <node id="Turkmenistan">
+      <data key="d0">TKM</data>
+      <data key="d1">14.11619</data>
+      <data key="d2">71367.344</data>
+      <data key="d3">0.04</data>
+      <data key="d4">0.8327022764941446</data>
+      <data key="d5">-0.180295595443824</data>
+    </node>
+    <node id="Ukraine">
+      <data key="d0">UKR</data>
+      <data key="d1">3.4846325</data>
+      <data key="d2">16309.124</data>
+      <data key="d3">16.518</data>
+      <data key="d4">-0.20629578615173969</data>
+      <data key="d5">-0.016351269543659546</data>
+    </node>
+    <node id="United Arab Emirates">
+      <data key="d0">ARE</data>
+      <data key="d1">20.220825</data>
+      <data key="d2">148576.547</data>
+      <data key="d3">4.5</data>
+      <data key="d4">0.7111709157423467</data>
+      <data key="d5">0.14414114337615025</data>
+    </node>
+    <node id="United Kingdom">
+      <data key="d0">GBR</data>
+      <data key="d1">4.563232</data>
+      <data key="d2">30097.885</data>
+      <data key="d3">41.448</data>
+      <data key="d4">0.4373020804253128</data>
+      <data key="d5">-0.6571159559699328</data>
+    </node>
+    <node id="United States">
+      <data key="d0">USA</data>
+      <data key="d1">14.802047</data>
+      <data key="d2">78754.273</data>
+      <data key="d3">22.521</data>
+      <data key="d4">0.35410219934646747</data>
+      <data key="d5">-0.8681310729292259</data>
+    </node>
+    <node id="Uruguay">
+      <data key="d0">URY</data>
+      <data key="d1">2.212046</data>
+      <data key="d2">nan</data>
+      <data key="d3">84.443</data>
+      <data key="d4">-0.5117689644602648</data>
+      <data key="d5">0.35983361838623446</data>
+    </node>
+    <node id="Uzbekistan">
+      <data key="d0">UZB</data>
+      <data key="d1">3.4089596</data>
+      <data key="d2">16929.814</data>
+      <data key="d3">7.744</data>
+      <data key="d4">-0.37805650345432296</data>
+      <data key="d5">0.23006087882990556</data>
+    </node>
+    <node id="Venezuela">
+      <data key="d0">VEN</data>
+      <data key="d1">3.8430314</data>
+      <data key="d2">21683.146</data>
+      <data key="d3">80.468</data>
+      <data key="d4">-0.5747448173011173</data>
+      <data key="d5">0.5843097363826769</data>
+    </node>
+    <node id="Vietnam">
+      <data key="d0">VNM</data>
+      <data key="d1">3.2368684</data>
+      <data key="d2">12983.017</data>
+      <data key="d3">51.551</data>
+      <data key="d4">0.5965969601191825</data>
+      <data key="d5">-0.14320198625003439</data>
+    </node>
+    <edge source="Algeria" target="Azerbaijan" />
+    <edge source="Algeria" target="Belarus" />
+    <edge source="Algeria" target="Hong Kong" />
+    <edge source="Algeria" target="Iraq" />
+    <edge source="Algeria" target="Israel" />
+    <edge source="Algeria" target="Malta" />
+    <edge source="Algeria" target="Moldova" />
+    <edge source="Algeria" target="South Africa" />
+    <edge source="Algeria" target="Tunisia" />
+    <edge source="Algeria" target="Uzbekistan" />
+    <edge source="Argentina" target="Bolivia" />
+    <edge source="Argentina" target="Bosnia and Herzegovina" />
+    <edge source="Argentina" target="France" />
+    <edge source="Argentina" target="Italy" />
+    <edge source="Argentina" target="Mexico" />
+    <edge source="Argentina" target="North Macedonia" />
+    <edge source="Argentina" target="Philippines" />
+    <edge source="Argentina" target="Serbia" />
+    <edge source="Argentina" target="Slovakia" />
+    <edge source="Argentina" target="Slovenia" />
+    <edge source="Australia" target="United States" />
+    <edge source="Austria" target="Denmark" />
+    <edge source="Austria" target="Lithuania" />
+    <edge source="Austria" target="New Zealand" />
+    <edge source="Austria" target="Venezuela" />
+    <edge source="Azerbaijan" target="Belarus" />
+    <edge source="Azerbaijan" target="Egypt" />
+    <edge source="Azerbaijan" target="Hong Kong" />
+    <edge source="Azerbaijan" target="Iraq" />
+    <edge source="Azerbaijan" target="Israel" />
+    <edge source="Azerbaijan" target="Malta" />
+    <edge source="Azerbaijan" target="Moldova" />
+    <edge source="Azerbaijan" target="South Africa" />
+    <edge source="Azerbaijan" target="Thailand" />
+    <edge source="Azerbaijan" target="Tunisia" />
+    <edge source="Azerbaijan" target="Uzbekistan" />
+    <edge source="Bangladesh" target="Egypt" />
+    <edge source="Bangladesh" target="Malta" />
+    <edge source="Bangladesh" target="Moldova" />
+    <edge source="Bangladesh" target="Tunisia" />
+    <edge source="Bangladesh" target="Uzbekistan" />
+    <edge source="Belarus" target="Czechia" />
+    <edge source="Belarus" target="Hong Kong" />
+    <edge source="Belarus" target="Iran" />
+    <edge source="Belarus" target="Iraq" />
+    <edge source="Belarus" target="Israel" />
+    <edge source="Belarus" target="Malta" />
+    <edge source="Belarus" target="Singapore" />
+    <edge source="Belarus" target="South Africa" />
+    <edge source="Belarus" target="Uzbekistan" />
+    <edge source="Belgium" target="Bulgaria" />
+    <edge source="Belgium" target="China" />
+    <edge source="Belgium" target="Cyprus" />
+    <edge source="Belgium" target="Hungary" />
+    <edge source="Belgium" target="Japan" />
+    <edge source="Belgium" target="Malaysia" />
+    <edge source="Belgium" target="Poland" />
+    <edge source="Belgium" target="Serbia" />
+    <edge source="Belgium" target="Slovakia" />
+    <edge source="Belgium" target="Slovenia" />
+    <edge source="Bolivia" target="Romania" />
+    <edge source="Bolivia" target="Spain" />
+    <edge source="Bolivia" target="United Kingdom" />
+    <edge source="Bosnia and Herzegovina" target="China" />
+    <edge source="Bosnia and Herzegovina" target="Estonia" />
+    <edge source="Bosnia and Herzegovina" target="Germany" />
+    <edge source="Bosnia and Herzegovina" target="Greece" />
+    <edge source="Bosnia and Herzegovina" target="Ireland" />
+    <edge source="Bosnia and Herzegovina" target="Italy" />
+    <edge source="Bosnia and Herzegovina" target="Netherlands" />
+    <edge source="Bosnia and Herzegovina" target="Romania" />
+    <edge source="Bosnia and Herzegovina" target="Serbia" />
+    <edge source="Bosnia and Herzegovina" target="Slovenia" />
+    <edge source="Bosnia and Herzegovina" target="Spain" />
+    <edge source="Bosnia and Herzegovina" target="Turkey" />
+    <edge source="Bosnia and Herzegovina" target="United Kingdom" />
+    <edge source="Brazil" target="Denmark" />
+    <edge source="Brazil" target="Kenya" />
+    <edge source="Brazil" target="Uruguay" />
+    <edge source="Brazil" target="Venezuela" />
+    <edge source="Bulgaria" target="Cyprus" />
+    <edge source="Bulgaria" target="Czechia" />
+    <edge source="Bulgaria" target="France" />
+    <edge source="Bulgaria" target="Hungary" />
+    <edge source="Bulgaria" target="Israel" />
+    <edge source="Bulgaria" target="Japan" />
+    <edge source="Bulgaria" target="Malaysia" />
+    <edge source="Bulgaria" target="North Macedonia" />
+    <edge source="Bulgaria" target="Poland" />
+    <edge source="Bulgaria" target="Slovakia" />
+    <edge source="Bulgaria" target="South Africa" />
+    <edge source="Burundi" target="Colombia" />
+    <edge source="Burundi" target="Ecuador" />
+    <edge source="Burundi" target="El Salvador" />
+    <edge source="Chile" target="Finland" />
+    <edge source="Chile" target="Greece" />
+    <edge source="Chile" target="Montenegro" />
+    <edge source="Chile" target="Peru" />
+    <edge source="Chile" target="Portugal" />
+    <edge source="Chile" target="Switzerland" />
+    <edge source="Chile" target="Vietnam" />
+    <edge source="China" target="Ireland" />
+    <edge source="China" target="Italy" />
+    <edge source="China" target="Japan" />
+    <edge source="China" target="Netherlands" />
+    <edge source="China" target="Poland" />
+    <edge source="China" target="Serbia" />
+    <edge source="China" target="Slovakia" />
+    <edge source="China" target="Slovenia" />
+    <edge source="Colombia" target="Ecuador" />
+    <edge source="Colombia" target="El Salvador" />
+    <edge source="Colombia" target="Georgia" />
+    <edge source="Colombia" target="Latvia" />
+    <edge source="Colombia" target="Lithuania" />
+    <edge source="Colombia" target="Sweden" />
+    <edge source="Colombia" target="Uruguay" />
+    <edge source="Colombia" target="Venezuela" />
+    <edge source="Costa Rica" target="Kenya" />
+    <edge source="Croatia" target="Finland" />
+    <edge source="Croatia" target="Latvia" />
+    <edge source="Croatia" target="Peru" />
+    <edge source="Croatia" target="Portugal" />
+    <edge source="Croatia" target="Sweden" />
+    <edge source="Croatia" target="Switzerland" />
+    <edge source="Cyprus" target="France" />
+    <edge source="Cyprus" target="Hungary" />
+    <edge source="Cyprus" target="Indonesia" />
+    <edge source="Cyprus" target="Israel" />
+    <edge source="Cyprus" target="Japan" />
+    <edge source="Cyprus" target="Malaysia" />
+    <edge source="Cyprus" target="Mexico" />
+    <edge source="Cyprus" target="Poland" />
+    <edge source="Cyprus" target="Slovakia" />
+    <edge source="Cyprus" target="South Africa" />
+    <edge source="Cyprus" target="Thailand" />
+    <edge source="Cyprus" target="Ukraine" />
+    <edge source="Cyprus" target="Uzbekistan" />
+    <edge source="Czechia" target="Iran" />
+    <edge source="Czechia" target="Israel" />
+    <edge source="Czechia" target="Malaysia" />
+    <edge source="Czechia" target="Poland" />
+    <edge source="Czechia" target="Russia" />
+    <edge source="Czechia" target="Singapore" />
+    <edge source="Czechia" target="South Africa" />
+    <edge source="Czechia" target="South Korea" />
+    <edge source="Czechia" target="Taiwan" />
+    <edge source="Denmark" target="Ecuador" />
+    <edge source="Denmark" target="Georgia" />
+    <edge source="Denmark" target="Lithuania" />
+    <edge source="Denmark" target="New Zealand" />
+    <edge source="Denmark" target="Uruguay" />
+    <edge source="Denmark" target="Venezuela" />
+    <edge source="Ecuador" target="El Salvador" />
+    <edge source="Ecuador" target="Georgia" />
+    <edge source="Ecuador" target="Latvia" />
+    <edge source="Ecuador" target="Lithuania" />
+    <edge source="Ecuador" target="Sweden" />
+    <edge source="Ecuador" target="Uruguay" />
+    <edge source="Ecuador" target="Venezuela" />
+    <edge source="Egypt" target="Hungary" />
+    <edge source="Egypt" target="India" />
+    <edge source="Egypt" target="Indonesia" />
+    <edge source="Egypt" target="Iraq" />
+    <edge source="Egypt" target="Moldova" />
+    <edge source="Egypt" target="Morocco" />
+    <edge source="Egypt" target="Thailand" />
+    <edge source="Egypt" target="Tunisia" />
+    <edge source="Egypt" target="Ukraine" />
+    <edge source="Egypt" target="Uzbekistan" />
+    <edge source="El Salvador" target="Georgia" />
+    <edge source="El Salvador" target="Latvia" />
+    <edge source="El Salvador" target="Sweden" />
+    <edge source="El Salvador" target="Venezuela" />
+    <edge source="Estonia" target="Germany" />
+    <edge source="Estonia" target="Ireland" />
+    <edge source="Estonia" target="Netherlands" />
+    <edge source="Finland" target="Montenegro" />
+    <edge source="Finland" target="Portugal" />
+    <edge source="Finland" target="Switzerland" />
+    <edge source="France" target="Hungary" />
+    <edge source="France" target="India" />
+    <edge source="France" target="Indonesia" />
+    <edge source="France" target="Mexico" />
+    <edge source="France" target="Morocco" />
+    <edge source="France" target="North Macedonia" />
+    <edge source="France" target="Serbia" />
+    <edge source="France" target="Slovakia" />
+    <edge source="France" target="Slovenia" />
+    <edge source="France" target="Thailand" />
+    <edge source="France" target="Ukraine" />
+    <edge source="Georgia" target="Latvia" />
+    <edge source="Georgia" target="Lithuania" />
+    <edge source="Georgia" target="Sweden" />
+    <edge source="Georgia" target="Uruguay" />
+    <edge source="Georgia" target="Venezuela" />
+    <edge source="Germany" target="Greece" />
+    <edge source="Germany" target="Ireland" />
+    <edge source="Germany" target="Italy" />
+    <edge source="Germany" target="Netherlands" />
+    <edge source="Germany" target="Turkey" />
+    <edge source="Greece" target="Ireland" />
+    <edge source="Greece" target="Italy" />
+    <edge source="Greece" target="Montenegro" />
+    <edge source="Greece" target="Netherlands" />
+    <edge source="Greece" target="Romania" />
+    <edge source="Greece" target="Spain" />
+    <edge source="Greece" target="Turkey" />
+    <edge source="Greece" target="United Kingdom" />
+    <edge source="Greece" target="Vietnam" />
+    <edge source="Hong Kong" target="Iraq" />
+    <edge source="Hong Kong" target="Israel" />
+    <edge source="Hong Kong" target="Malta" />
+    <edge source="Hong Kong" target="Moldova" />
+    <edge source="Hong Kong" target="South Africa" />
+    <edge source="Hong Kong" target="Tunisia" />
+    <edge source="Hong Kong" target="Uzbekistan" />
+    <edge source="Hungary" target="India" />
+    <edge source="Hungary" target="Indonesia" />
+    <edge source="Hungary" target="Mexico" />
+    <edge source="Hungary" target="Morocco" />
+    <edge source="Hungary" target="North Macedonia" />
+    <edge source="Hungary" target="Serbia" />
+    <edge source="Hungary" target="Slovakia" />
+    <edge source="Hungary" target="Slovenia" />
+    <edge source="Hungary" target="Thailand" />
+    <edge source="Hungary" target="Ukraine" />
+    <edge source="Iceland" target="Norway" />
+    <edge source="India" target="Indonesia" />
+    <edge source="India" target="Mexico" />
+    <edge source="India" target="Morocco" />
+    <edge source="India" target="Nigeria" />
+    <edge source="India" target="North Macedonia" />
+    <edge source="India" target="Pakistan" />
+    <edge source="India" target="Philippines" />
+    <edge source="India" target="Thailand" />
+    <edge source="India" target="Ukraine" />
+    <edge source="Indonesia" target="Mexico" />
+    <edge source="Indonesia" target="Morocco" />
+    <edge source="Indonesia" target="Nigeria" />
+    <edge source="Indonesia" target="North Macedonia" />
+    <edge source="Indonesia" target="Pakistan" />
+    <edge source="Indonesia" target="Philippines" />
+    <edge source="Indonesia" target="Thailand" />
+    <edge source="Indonesia" target="Ukraine" />
+    <edge source="Iran" target="Israel" />
+    <edge source="Iran" target="Singapore" />
+    <edge source="Iran" target="South Africa" />
+    <edge source="Iraq" target="Israel" />
+    <edge source="Iraq" target="Malta" />
+    <edge source="Iraq" target="South Africa" />
+    <edge source="Iraq" target="Tunisia" />
+    <edge source="Iraq" target="Uzbekistan" />
+    <edge source="Ireland" target="Italy" />
+    <edge source="Ireland" target="Netherlands" />
+    <edge source="Ireland" target="Serbia" />
+    <edge source="Ireland" target="Slovenia" />
+    <edge source="Ireland" target="Spain" />
+    <edge source="Ireland" target="Turkey" />
+    <edge source="Ireland" target="United Kingdom" />
+    <edge source="Israel" target="Malaysia" />
+    <edge source="Israel" target="Singapore" />
+    <edge source="Israel" target="South Africa" />
+    <edge source="Italy" target="Netherlands" />
+    <edge source="Italy" target="North Macedonia" />
+    <edge source="Italy" target="Romania" />
+    <edge source="Italy" target="Serbia" />
+    <edge source="Italy" target="Slovenia" />
+    <edge source="Italy" target="Spain" />
+    <edge source="Italy" target="Turkey" />
+    <edge source="Italy" target="United Kingdom" />
+    <edge source="Japan" target="Malaysia" />
+    <edge source="Japan" target="Poland" />
+    <edge source="Japan" target="Serbia" />
+    <edge source="Japan" target="Slovakia" />
+    <edge source="Japan" target="Slovenia" />
+    <edge source="Kazakhstan" target="Mongolia" />
+    <edge source="Kazakhstan" target="Russia" />
+    <edge source="Kazakhstan" target="South Korea" />
+    <edge source="Kazakhstan" target="Taiwan" />
+    <edge source="Kenya" target="Uruguay" />
+    <edge source="Kuwait" target="Trinidad and Tobago" />
+    <edge source="Latvia" target="Lithuania" />
+    <edge source="Latvia" target="Sweden" />
+    <edge source="Latvia" target="Venezuela" />
+    <edge source="Lithuania" target="Sweden" />
+    <edge source="Lithuania" target="Uruguay" />
+    <edge source="Lithuania" target="Venezuela" />
+    <edge source="Malaysia" target="Poland" />
+    <edge source="Malaysia" target="Slovakia" />
+    <edge source="Malaysia" target="South Africa" />
+    <edge source="Malta" target="Moldova" />
+    <edge source="Malta" target="Tunisia" />
+    <edge source="Malta" target="Uzbekistan" />
+    <edge source="Mexico" target="Morocco" />
+    <edge source="Mexico" target="Nigeria" />
+    <edge source="Mexico" target="North Macedonia" />
+    <edge source="Mexico" target="Pakistan" />
+    <edge source="Mexico" target="Philippines" />
+    <edge source="Mexico" target="Slovakia" />
+    <edge source="Mexico" target="Slovenia" />
+    <edge source="Mexico" target="Thailand" />
+    <edge source="Mexico" target="Ukraine" />
+    <edge source="Moldova" target="Thailand" />
+    <edge source="Moldova" target="Tunisia" />
+    <edge source="Moldova" target="Ukraine" />
+    <edge source="Moldova" target="Uzbekistan" />
+    <edge source="Mongolia" target="Russia" />
+    <edge source="Mongolia" target="South Korea" />
+    <edge source="Mongolia" target="Taiwan" />
+    <edge source="Mongolia" target="Turkmenistan" />
+    <edge source="Montenegro" target="Peru" />
+    <edge source="Montenegro" target="Portugal" />
+    <edge source="Montenegro" target="Switzerland" />
+    <edge source="Montenegro" target="Vietnam" />
+    <edge source="Morocco" target="North Macedonia" />
+    <edge source="Morocco" target="Philippines" />
+    <edge source="Morocco" target="Thailand" />
+    <edge source="Morocco" target="Ukraine" />
+    <edge source="Morocco" target="Uzbekistan" />
+    <edge source="Netherlands" target="Spain" />
+    <edge source="Netherlands" target="Turkey" />
+    <edge source="Netherlands" target="United Kingdom" />
+    <edge source="New Zealand" target="Venezuela" />
+    <edge source="Nigeria" target="Pakistan" />
+    <edge source="Nigeria" target="Philippines" />
+    <edge source="North Macedonia" target="Philippines" />
+    <edge source="North Macedonia" target="Serbia" />
+    <edge source="North Macedonia" target="Slovakia" />
+    <edge source="North Macedonia" target="Slovenia" />
+    <edge source="Oman" target="Turkmenistan" />
+    <edge source="Pakistan" target="Philippines" />
+    <edge source="Peru" target="Portugal" />
+    <edge source="Peru" target="Sri Lanka" />
+    <edge source="Peru" target="Switzerland" />
+    <edge source="Peru" target="Vietnam" />
+    <edge source="Philippines" target="Thailand" />
+    <edge source="Philippines" target="Ukraine" />
+    <edge source="Poland" target="Serbia" />
+    <edge source="Poland" target="Slovakia" />
+    <edge source="Poland" target="Slovenia" />
+    <edge source="Portugal" target="Sweden" />
+    <edge source="Portugal" target="Switzerland" />
+    <edge source="Portugal" target="Vietnam" />
+    <edge source="Romania" target="Spain" />
+    <edge source="Romania" target="Turkey" />
+    <edge source="Romania" target="United Kingdom" />
+    <edge source="Romania" target="Vietnam" />
+    <edge source="Russia" target="South Korea" />
+    <edge source="Saudi Arabia" target="United Arab Emirates" />
+    <edge source="Serbia" target="Slovakia" />
+    <edge source="Serbia" target="Slovenia" />
+    <edge source="Singapore" target="South Africa" />
+    <edge source="Slovakia" target="Slovenia" />
+    <edge source="Slovakia" target="Thailand" />
+    <edge source="Slovakia" target="Ukraine" />
+    <edge source="South Korea" target="Taiwan" />
+    <edge source="South Korea" target="Turkmenistan" />
+    <edge source="Spain" target="Turkey" />
+    <edge source="Spain" target="United Kingdom" />
+    <edge source="Spain" target="Vietnam" />
+    <edge source="Sri Lanka" target="Switzerland" />
+    <edge source="Sri Lanka" target="Vietnam" />
+    <edge source="Sweden" target="Switzerland" />
+    <edge source="Switzerland" target="Vietnam" />
+    <edge source="Taiwan" target="Turkmenistan" />
+    <edge source="Thailand" target="Ukraine" />
+    <edge source="Thailand" target="Uzbekistan" />
+    <edge source="Tunisia" target="Uzbekistan" />
+    <edge source="Turkey" target="United Kingdom" />
+    <edge source="Turkey" target="Vietnam" />
+    <edge source="Ukraine" target="Uzbekistan" />
+    <edge source="Uruguay" target="Venezuela" />
+  </graph>
+</graphml>
