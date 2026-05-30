@@ -103,7 +103,6 @@ renewable_values = [G.nodes[n]["renewable_share"] for n in G.nodes()]
 pos = nx.spring_layout(G, k=0.5, iterations=50, seed=42)
 
 fig, ax = plt.subplots(figsize=(20, 16))
-
 cmap = plt.cm.RdYlGn
 nodes_plot = nx.draw_networkx_nodes(
     G,
@@ -114,11 +113,15 @@ nodes_plot = nx.draw_networkx_nodes(
     alpha=0.85,
     ax=ax,
 )
-nx.draw_networkx_edges(G, pos, alpha=0.15, width=0.5, ax=ax)
+
+# Updated: Increased edge alpha and width for better visibility
+nx.draw_networkx_edges(G, pos, alpha=0.35, width=0.8, ax=ax)
 
 top_nodes = sorted(deg_cent, key=deg_cent.get, reverse=True)[:20]
 label_subset = {n: n for n in top_nodes}
-nx.draw_networkx_labels(G, pos, labels=label_subset, font_size=7, ax=ax)
+
+# Updated: Increased font_size for better readability
+nx.draw_networkx_labels(G, pos, labels=label_subset, font_size=11, ax=ax)
 
 cbar = plt.colorbar(nodes_plot, ax=ax, shrink=0.3)
 cbar.set_label("Renewable Energy Share (%)", fontsize=12)
